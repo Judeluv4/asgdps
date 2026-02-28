@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>ASGDPS Demonlist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+<nav>
+  <div class="nav-left">
+    <h1>ASGDPS Demonlist – Judeluv_4x</h1>
+    <button id="tabList" class="active">Demonlist</button>
+    <button id="tabStats">Stats Viewer</button>
+  </div>
+  <button id="themeToggle" class="themeBtn">Switch Theme</button>
+</nav>
+
+<div id="demonView" class="view active">
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search levels..." autocomplete="off" />
+  </div>
+  <main id="list"></main>
+</div>
+
+<div id="statsView" class="view">
+  <div class="stats">
+    <div class="players" id="playerList"></div>
+    <div class="profile" id="profile"></div>
+  </div>
+</div>
+
+<footer>judeluv_4x 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
